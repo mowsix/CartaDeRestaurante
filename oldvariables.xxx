@@ -1,0 +1,12 @@
+#aws_access_key = "ASIARMWZPIP7HI26FGEG"
+#aws_secret_key = "fzpcJPsltXJBW1qg2NDYDxC0Setnt40RHRhfEZEG"
+
+variable "aws_access_key" {
+  description = "AWS access key"
+  type        = string
+}
+
+variable "aws_secret_key" {
+  description = "AWS secret key"
+  type        = string
+}

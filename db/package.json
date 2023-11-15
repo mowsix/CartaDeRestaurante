@@ -1,0 +1,8 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "Database",
+  "main": "db.js",
+  "author": "Santiago Gallego Henao",
+  "license": "ISC"
+}

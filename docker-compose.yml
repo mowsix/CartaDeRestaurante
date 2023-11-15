@@ -18,7 +18,7 @@ services:
   angular:
     image: angular-nginx-docker
     build:
-      context: ./angular
+      context: ./web
     environment:
       NODE_ENV: production
     ports:

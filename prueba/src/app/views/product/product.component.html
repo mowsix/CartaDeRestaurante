@@ -1,0 +1,21 @@
+<div class="container" *ngIf="item != null">
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <img class="text-center" src="{{ item.img }}" />
+        <div class="card-content">
+          <h1 class="card-title">
+            {{ item.name }}
+          </h1>
+          <h2 class="card-title">
+            {{ item.description }}
+          </h2>
+        </div>
+        <div class="card-read-more"></div>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn btn-danger" (click)="gotoHome()">
+    Volver al home
+  </button>
+</div>

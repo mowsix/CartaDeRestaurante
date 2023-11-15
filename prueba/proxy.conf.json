@@ -1,0 +1,11 @@
+{
+    "/api-one": {
+      "target": "http://localhost:3001",
+      "secure": false
+    },
+    "/api-two": {
+      "target": "http://localhost:3002",
+      "secure": false
+    }
+  }
+  
